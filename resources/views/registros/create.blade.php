@@ -59,6 +59,18 @@
                     <label class="block text-sm font-medium text-gray-700">Fecha</label>
                     <input type="date" name="fecha" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
                 </div>
+                 <div class="mb-4">
+                    <label class="block text-sm font-medium text-gray-700">Fecha Evaluacion </label>
+                    <input type="date" name="fechaev" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                     <div class="mb-4">
+                    <label class="block text-sm font-medium text-gray-700">Servicio Educativo</label>
+                    <input type="text" name="servicioed" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                     <div class="mb-4">
+                    <label class="block text-sm font-medium text-gray-700">Estudios acreditados </label>
+                    <input type="text" name="estudiosa" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
 
                 <div class="mb-6">
                     <label class="block text-sm font-medium text-gray-700">Imagen</label>

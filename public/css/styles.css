@@ -185,3 +185,55 @@ footer.footer-decorado {
 .social-icons li a:hover {
   color: #b38728;
 }
+/* Estilos para título principal */
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #333;
+  font-size: 20px;
+}
+
+.panel-default {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: none;
+}
+
+.panel-default label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos para inputs */
+.form-control {
+  width: 80%;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  border-radius: 2px;
+}
+
+/* Estilos del botón guinda */
+.btn-primary {
+  background-color: #600029;
+  border-color: #600029;
+  color: #ffffff;
+  border-radius: 2px;
+  font-weight: 400;
+  padding: 10px 20px;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #45001e;
+  border-color: #45001e;
+  outline: none;
+}

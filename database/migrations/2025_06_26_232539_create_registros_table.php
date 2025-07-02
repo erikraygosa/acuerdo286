@@ -17,7 +17,10 @@ return new class extends Migration
             $table->string('folio', 50)->nullable();
             $table->string('escuela', 150)->nullable();
             $table->string('cct', 20)->nullable(); // Clave de Centro de Trabajo
+            $table->string('servicioed', 150)->nullable();
+            $table->string('estudiosa', 150)->nullable();
             $table->string('calificacion', 10)->nullable();
+            $table->date('fechaev')->nullable();
             $table->string('clave', 50)->nullable(); // Puede ser clave del documento o materia
             $table->string('secretaria', 150)->nullable();
             $table->date('fecha')->nullable();

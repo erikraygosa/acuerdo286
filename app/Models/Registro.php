@@ -23,5 +23,8 @@ class Registro extends Model
         'secretaria',
         'fecha',
         'imagen',
+        'servicioed',
+        'estudiosa',
+        'fechaev'
     ];
 }

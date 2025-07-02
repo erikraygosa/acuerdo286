@@ -52,7 +52,10 @@ class RegistroController extends Controller
         'clave' => 'nullable|string|max:255',
         'secretaria' => 'nullable|string|max:255',
         'fecha' => 'nullable|date',
-        'imagen' => 'nullable|image|mimes:jpg,jpeg,png|max:2048'
+        'imagen' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
+        'servicioed' => 'nullable|string|max:255',
+        'estudiosa' => 'nullable|string|max:255',
+        'fechaev' => 'nullable|date',
     ]);
 
     if ($request->hasFile('imagen')) {
